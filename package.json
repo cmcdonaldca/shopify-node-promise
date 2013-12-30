@@ -1,0 +1,33 @@
+{
+  "name": "shopify-node-promise",
+  "version": "1.0.0",
+  "description": "Light-weight Shopify API adapter for Node",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmcdonaldca/shopify-node-promise"
+  },
+  "keywords": [
+    "shopify",
+    "shopifyapi",
+    "node",
+    "node.js"
+  ],
+  "author": "Colin McDonald",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmcdonaldca/shopify-node-promise/issues"
+  },
+  "homepage": "https://github.com/cmcdonaldca/shopify-node-promise",
+  "devDependencies": {
+    "mocha": "~1.16.2",
+    "chai": "~1.8.1",
+    "underscore": "~1.5.2"
+  },
+  "dependencies": {
+    "node-promise": "~0.5.10"
+  }
+}
